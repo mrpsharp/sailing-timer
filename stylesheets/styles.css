@@ -158,10 +158,10 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  /*width:270px;*/
+  /*float:left;*/
+  /*position:fixed;*/
+  /*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
 header ul {
@@ -224,8 +224,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  /*width:500px;*/
+  /*float:right;*/
   padding-bottom:50px;
 }
 
@@ -322,3 +322,16 @@ footer {
     color:#444;
   }
 }
+
+form ul {
+  padding: 0;
+}
+
+form li {
+  list-style-type: none;
+  display: table-row;
+}
+
+form  { display: table;      }
+label { display: table-cell; }
+input { display: table-cell; }
