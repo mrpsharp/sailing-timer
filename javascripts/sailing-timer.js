@@ -8,7 +8,7 @@ $(document).ready(function() {
 });
 
 function init(data){
-  var allTextLines = allText.split(/\r\n|\n/);
+  var allTextLines = data.split(/\r\n|\n/);
   var headers = allTextLines[0].split(',');
   var competitors = [];
 
